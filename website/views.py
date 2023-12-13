@@ -17,7 +17,7 @@ def create_ticket():
     db.session.commit()
 
 
-    return {'mensagem': 'Ingresso Criado com Sucesso!'}
+    return {'mensagem': 'Ingresso Criado com Sucesso!!'}
 
 
 @views.route('/validar_ingresso/<string:qr_code>', methods=['GET'])
